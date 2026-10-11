@@ -282,3 +282,25 @@ font-size: 15px;
 line-height: 1.7;
 margin: 0;
 }
+.membership-section{
+    width: 100%;
+    padding: 60px 8%;
+    background-color: #14532d;
+    text-align: center;
+    border-top: 1px solid #286344;
+}
+.membership-section h2{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0 0 20px;
+}
+.membership-section p{
+    color: #d1e7d5;
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+.membership-section .btn{
+    display: inline-block;
+}
