@@ -331,3 +331,16 @@ margin: 0;
     max-width: 600px;
     margin: 15px auto 0;
 }
+.footer{
+    width: 100%;
+    padding: 22px 5%;
+    background-color: #082817;
+    border-top: 1px solid #286344;
+    text-align: center;
+}
+.footer p{
+    color: #d1e7d5;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
