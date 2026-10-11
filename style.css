@@ -26,3 +26,68 @@ text-decoration: none;
 button {
 font-family: inherit;
 }
+.header{
+    width: 100%;
+min-height: 85px;
+padding: 15px 5%;
+background-color:#0b3520;
+display:flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid #286344;
+}
+.logo-container{
+    display:flex;
+    align-items:center;
+    gap: 15px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+.brand-text h2{
+    margin: 0;
+    color: #ffffff;
+    font-size: 24px;
+}
+.brand-text p {
+    margin: 5px 0 0;
+    color:#d1e7d5;
+    font-size: 13px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile-link{
+    color: #ffffff;
+    font-size: 15px;
+}
+.profile-link{
+    color: #a7f3b5;
+}
+.menu-button{
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 5px;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 75px;
+    right: 5%;
+    min-width: 200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    overflow: hidden;
+    z-index: 1000;
+}
+.dropdown-menu a{
+    background-color: #e8f5e9;
+}
