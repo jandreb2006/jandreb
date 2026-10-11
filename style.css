@@ -231,3 +231,54 @@ border: 2px solid #14532d;
     line-height: 1.9;
     margin: 0;
 }
+.products-section{
+    width: 100%;
+    padding: 50px 5%;
+    background-color: #0b3520;
+    text-align: center;
+}
+.products-section > h2{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0 0 15px;
+}
+.products-section > p{
+    color: #d1e7d5;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0 auto 35px;
+    max-width: 700px;
+}
+.products-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.card{
+    flex: 1;
+    max-width: 350px;
+    background-color: #14532d;
+    border: 1px solid #286344;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.card{
+    transform: translatey(-5px);
+    background-color: #1b6338;
+}
+.product-icon{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.card h3{
+    color: #ffffff;
+    font-size: 22px;
+    margin: 0 0 12px;
+}
+.card pa{
+color: #d1e7d5;
+font-size: 15px;
+line-height: 1.7;
+margin: 0;
+}
