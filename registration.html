@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html> <head> <title>Register | ELFAMCO</title> <link rel="stylesheet" href="style.css"> </head> <body class="login-page">
+<div class="login-container">
+    <div class="login-header">
+        <img src="images/logo.png" alt="ELFAMCO Logo" class="login-logo">
+        <h1>ELFAMCO</h1>
+        <p>Elvita Farmers Multi Purpose Cooperative</p>
+    </div>
+    <form id="registrationForm">
+        <h2>Create an Account</h2>
+        <p class="login-description">Register to get started.</p>
+        <div class="form-group">
+            <label for="registerName">Full Name</label>
+            <input type="text" id="registerName" name="name" placeholder="Enter your full name" required>
+        </div>
+        <div class="form-group">
+            <label for="registerEmail">Email Address</label>
+            <input type="email" id="registerEmail" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="registerPassword">Password</label>
+            <input type="password" id="registerPassword" name="password" placeholder="Create a password" minlength="8" required>
+        </div>
+        <div class="form-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Re-enter your password" minlength="8" required>
+        </div>
+        <button type="submit" class="login-button">Register</button>
+        <p id="registrationMessage" class="login-message"></p>
+        <p class="register-prompt">
+            Already have an account?
+            <a href="login.html">Log in here</a>
+        </p>
+    </form>
+</div>
+<script src="script.js"></script>
+</body> </html>
