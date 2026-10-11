@@ -304,3 +304,30 @@ margin: 0;
 .membership-section .btn{
     display: inline-block;
 }
+.contact-section{
+    width: 100%;
+    padding: 50px 8%;
+    background-color: #0b3520;
+    text-align: center;
+    border-top: 1px solid #286344;
+}
+.contact-section h2{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0 0 25px;
+}
+.contact-section p {
+    color: #d1e7d5;
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 8px 0;
+}
+.contact-section p{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-section p{
+    max-width: 600px;
+    margin: 15px auto 0;
+}
