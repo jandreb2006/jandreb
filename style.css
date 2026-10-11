@@ -176,3 +176,37 @@ border: 2px solid #14532d;
     font-size: 15px;
     margin: 0;
 }
+.what-we-do{
+    width: 100%;
+    padding: 45px 5%;
+    background-color: #0b3520;
+}
+.what-we-do > h2{
+    color: #ffffff;
+    font-size: 28px;
+    margin: 0 0 25px;
+}
+.services-container{
+    display: flex;
+    gap: 25px;
+    width: 100%;
+}
+.service-box{
+    flex: 1;
+    min-height: 190px;
+    padding: 25px;
+    background-color: #14532d;
+    border: 1px solid #286344;
+    border-radius: 8px;
+}
+.service-box h3{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+.service-box p{
+    color: #d1e7d5;
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 0;
+}
