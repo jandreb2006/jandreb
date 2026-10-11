@@ -155,3 +155,24 @@ border-bottom: 1px solid #286344;
 .btn-secondary:hover{
 border: 2px solid #14532d;
 }
+.stats-section{
+    width: 100%;
+    padding: 35px 5%;
+    background-color: #14532d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #286344;
+    border-bottom: 1px solid #286344;
+}
+.stat-box h3{
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0 0 10px;
+}
+.stat-box p{
+    color: #d1e7d5;
+    font-size: 15px;
+    margin: 0;
+}
