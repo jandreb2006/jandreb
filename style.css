@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  }
+
+:root {
+--green: #14532d;
+--dark-green: #0b3520;
+--light-green: #e8f5e9;
+--white: #ffffff;
+--text: #ffffff;
+--gray: #16452c;
+}
+
+body {
+margin: 0;
+padding: 0;
+background-color: var(--dark-green);
+color: var(--white);
+font-family: Arial, sans-serif;
+}
+
+a {
+text-decoration: none;
+}
+
+button {
+font-family: inherit;
+}
